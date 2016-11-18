@@ -19,6 +19,5 @@ function onRequest(request, response) {
     send404Response(response);
   }
 }
-
 http.createServer(onRequest).listen(PORT);
 console.log("Server is now running...");
